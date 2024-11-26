@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/Carter-Apas/eslint-config/compare/v1.1.0...v2.0.0) (2024-11-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* Eslint 9
+
+### Features
+
+* Eslint 9 ([97e38e6](https://github.com/Carter-Apas/eslint-config/commit/97e38e68f4b260d3dd90fe1b70f50e6946bfdf7b))
+
 ## [1.1.0](https://github.com/Carter-Apas/eslint-config/compare/v1.0.0...v1.1.0) (2024-11-25)
 
 
