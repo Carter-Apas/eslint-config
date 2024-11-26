@@ -1,3 +1,2 @@
-module.exports = {
-    "extends": [ "./configs/node" ],
-};
+import node from "./configs/node";
+export default node;

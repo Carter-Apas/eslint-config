@@ -1,5 +1,6 @@
-module.exports = {
-  extends: [
-    "../lib/common.js",
-  ],
-};
+import common from "../lib/common";
+export default [
+  {
+    ...common,
+  },
+];
