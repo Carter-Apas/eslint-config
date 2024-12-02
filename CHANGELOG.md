@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/Carter-Apas/eslint-config/compare/v2.0.0...v2.1.0) (2024-12-02)
+
+
+### Features
+
+* Add globals for node and browser to node ([ff69204](https://github.com/Carter-Apas/eslint-config/commit/ff69204e4f8b7b041e05ee3cc964c6a535d40f7f))
+
 ## [2.0.0](https://github.com/Carter-Apas/eslint-config/compare/v1.1.0...v2.0.0) (2024-11-26)
 
 
