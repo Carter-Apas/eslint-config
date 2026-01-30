@@ -12,6 +12,7 @@ Create a `eslint.config.js` file in the root of the repo you are working on and 
 
 e.g. using the `typescript` linting rules (additional rules can be added to this `extends` list)
 
+
 ```javascript
 import lint from "@cartercree/eslint-config/configs/typescript.js";
 //change typescript to whatever you are working on
