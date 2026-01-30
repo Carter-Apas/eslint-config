@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/Carter-Apas/eslint-config/compare/v2.1.0...v2.1.1) (2026-01-30)
+
+
+### Bug Fixes
+
+* Remove react from typescript config ([ad7f2bf](https://github.com/Carter-Apas/eslint-config/commit/ad7f2bf26ea30b2086d48586afdbb135b452d58d))
+
 ## [2.1.0](https://github.com/Carter-Apas/eslint-config/compare/v2.0.0...v2.1.0) (2024-12-02)
 
 
