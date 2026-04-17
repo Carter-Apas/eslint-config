@@ -1,3 +1,7 @@
+# Carter's Eslint Config
+
+This package provides Carter's eslint config as an extensible [shared config](https://eslint.org/docs/developer-guide/shareable-configs) :sparkles:
+
 ## Install and Setup
 
 Install the library using:
@@ -8,20 +12,21 @@ npm i -D eslint @cartercree/eslint-config
 
 ## Usage
 
-Create a `eslint.config.js` file in the root of the repo you are working on and extend the preset/config you wish to use
+Create a `eslint.config.js` file in the root of the repo you are working on and import the config you wish to use
 
-e.g. using the `typescript` linting rules (additional rules can be added to this `extends` list)
+e.g. using the `ts` linting rules (additional rules can be added to the array)
 
+```js
+// eslint.config.js
+import ts from "@cartercree/eslint-config/configs/ts.js";
 
-```javascript
-import lint from "@cartercree/eslint-config/configs/typescript.js";
-//change typescript to whatever you are working on
 export default [
-  ...lint
-  { ignores: ["dist"] },
+  ...ts,
+  // anything from here will override ts
   {
-    files: ["**/*.{ts,tsx}"],
-  }
-  // ...rest of config
-]
+    rules: {
+      "no-unused-vars": "warn",
+    },
+  },
+];
 ```
