@@ -30,3 +30,11 @@ export default [
   },
 ];
 ```
+
+## Migration
+
+The flat-config port changed the exported preset names.
+
+- `configs/node.js` was replaced by `configs/js.js`
+- `configs/typescript.js` was replaced by `configs/ts.js`
+- the package default export now matches `configs/js.js`
