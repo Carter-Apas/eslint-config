@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.3](https://github.com/Carter-Apas/eslint-config/compare/v2.1.2...v2.1.3) (2026-04-17)
+
+
+### Bug Fixes
+
+* restore legacy config entrypoints ([9bf7a3d](https://github.com/Carter-Apas/eslint-config/commit/9bf7a3dc22d47d3b87e2524cc385ed5d21bde500))
+
 ## [2.1.2](https://github.com/Carter-Apas/eslint-config/compare/v2.1.1...v2.1.2) (2026-01-30)
 
 
