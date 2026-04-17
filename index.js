@@ -1,2 +1,5 @@
-import node from "./configs/node";
-export default node;
+import js from "./configs/js.js";
+
+export default [
+  ...js,
+];
