@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.1.0](https://github.com/Carter-Apas/eslint-config/compare/v4.0.0...v4.1.0) (2026-11-09)
+
+
+### Features
+
+* require blank lines around type and function declarations ([dfc91f6](https://github.com/Carter-Apas/eslint-config/commit/dfc91f60db6a682c41831290ad629dba585389a1))
+
 ## [4.0.0](https://github.com/Carter-Apas/eslint-config/compare/v3.0.0...v4.0.0) (2026-11-09)
 
 
