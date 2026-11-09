@@ -5,7 +5,7 @@
   "license": "Unlicense",
   "repository": {
     "type": "git",
-    "url": "https://github.com/carter-apas/eslint-config"
+    "url": "git+https://github.com/Carter-Apas/eslint-config.git"
   },
   "bugs": {
     "url": "https://github.com/carter-apas/eslint-config/issues"
