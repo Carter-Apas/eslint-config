@@ -19,12 +19,10 @@ Create a `eslint.config.js` file in the root of the repo you are working on and 
 e.g. using the `ts` linting rules (additional rules can be added to the array)
 
 ```js
-// eslint.config.js
 import ts from "@cartercree/eslint-config/configs/ts.js";
 
 export default [
   ...ts,
-  // anything from here will override ts
   {
     rules: {
       "no-unused-vars": "warn",
@@ -32,6 +30,29 @@ export default [
   },
 ];
 ```
+
+## Comments
+
+All presets enable `comments/none` as an error. It disallows line comments,
+block comments, JSDoc, and JSX comments. Strings containing comment-like text
+and executable shebangs are allowed.
+
+The diagnostic explains where to put the information instead:
+
+> Comments are not allowed. Express intent with clear names and tests. Put explanations in README.md or docs/ and agent instructions in AGENTS.md.
+
+Use `README.md` for setup and usage, existing documents under `docs/` for design
+rationale and architecture decisions, and `AGENTS.md` for durable agent instructions.
+Keep agent instructions concise and link to detailed documentation rather than
+duplicating it. Avoid creating documentation that only restates obvious code.
+
+This config's blanket comment ban is a project convention. General agent guidance
+supports concise, discoverable repository documentation, rather than a universal
+ban on code comments. See [OpenAI's repository documentation approach](https://openai.com/index/harness-engineering/),
+[Claude Code's guidance on concise agent instructions](https://code.claude.com/docs/en/best-practices#keep-claudemd-short),
+and [the Codex guidance on using comments sparingly](https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide).
+
+To allow comments in a project, add `"comments/none": "off"` to its rule overrides.
 
 ## Prettier
 
