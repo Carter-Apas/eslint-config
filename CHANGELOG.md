@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.0](https://github.com/Carter-Apas/eslint-config/compare/v3.0.0...v4.0.0) (2026-11-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* All presets now report source comments as lint errors. Set comments/none to off in project overrides to retain comments.
+
+### Features
+
+* disallow source comments across presets ([c9c43dd](https://github.com/Carter-Apas/eslint-config/commit/c9c43dd440573583b3a299c29348e376f7a5e1f3))
+
 ## [3.0.0](https://github.com/Carter-Apas/eslint-config/compare/v2.1.3...v3.0.0) (2026-11-09)
 
 
