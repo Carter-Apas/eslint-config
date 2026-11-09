@@ -54,6 +54,19 @@ and [the Codex guidance on using comments sparingly](https://developers.openai.c
 
 To allow comments in a project, add `"comments/none": "off"` to its rule overrides.
 
+## Declaration spacing
+
+All presets require blank lines before and after function declarations, variables
+initialized with arrow functions or function expressions, TypeScript type aliases,
+and interfaces. Ordinary variable declarations can stay grouped together, and
+TypeScript function overloads can stay with their implementation.
+
+The `@stylistic/padding-line-between-statements` rule reports missing blank lines
+as errors and inserts them with `eslint --fix`. Prettier preserves these blank lines.
+
+`prefer-const` requires `const` when a variable can be declared without later
+reassignment. Variables that are reassigned can still use `let`.
+
 ## Prettier
 
 All presets include `eslint-config-prettier/flat` as their final config to disable
