@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/Carter-Apas/eslint-config/compare/v2.1.3...v3.0.0) (2026-11-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* upgrade to ESLint 10
+
+### Features
+
+* upgrade to ESLint 10 ([2513bdb](https://github.com/Carter-Apas/eslint-config/commit/2513bdba0c40537c13803f3bd6a1e2421443b77a))
+
 ## [2.1.3](https://github.com/Carter-Apas/eslint-config/compare/v2.1.2...v2.1.3) (2026-04-17)
 
 
