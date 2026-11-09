@@ -1,4 +1,4 @@
-import _import from "eslint-plugin-import";
+import _import from "eslint-plugin-import-x";
 
 import config from "./index.js";
 

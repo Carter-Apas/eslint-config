@@ -4,6 +4,8 @@ This package provides Carter's eslint config as an extensible [shared config](ht
 
 ## Install and Setup
 
+Requires ESLint 10.14.0 or later within v10 and Node.js 20.19+, 22.13+, or 24+.
+
 Install the library using:
 
 ```sh
@@ -31,7 +33,19 @@ export default [
 ];
 ```
 
+## Prettier
+
+All presets include `eslint-config-prettier/flat` as their final config to disable
+ESLint formatting rules that conflict with Prettier. Run Prettier separately for
+formatting. This package does not provide a `.prettierignore` file; define ignored
+paths in each project's `.prettierignore`.
+
 ## Migration
+
+The ESLint 10 upgrade uses `eslint-plugin-import-x` while keeping the existing
+`import/*` rule names for overrides. If you configure import plugin settings,
+use the `import-x/*` setting names. The React presets now use the React Hooks 7
+recommended rules.
 
 The flat-config port changed the exported preset names.
 
